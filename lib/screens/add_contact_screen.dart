@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class DetailsScreen extends StatelessWidget {
+class AddContactScreen extends StatelessWidget {
   final String data;
 
-  const DetailsScreen({super.key, required this.data});
+  const AddContactScreen({super.key, required this.data});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Details Screen')),
+      appBar: AppBar(title: const Text('Add Contact Screen')),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

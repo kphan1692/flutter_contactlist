@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
-import 'details_screen.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+class ContactListScreen extends StatelessWidget {
+  const ContactListScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Home Screen")),
+      appBar: AppBar(title: const Text("Contact List Screen")),
       body: Center(
         child: ElevatedButton(
           child: Text('Go to Details'),

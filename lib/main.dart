@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/details_screen.dart';
-import 'home_screen.dart';
+import 'package:flutter_application_1/screens/add_contact_screen.dart';
+import '/screens/contact_list_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,8 +18,8 @@ class MyApp extends StatelessWidget {
         textTheme: const TextTheme(bodyMedium: TextStyle(fontSize: 16)),
       ),
       routes: {
-        '/': (context) => const HomeScreen(),
-        '/details': (context) => const DetailsScreen(data: 'Hi from routes'),
+        '/': (context) => const ContactListScreen(),
+        '/details': (context) => const AddContactScreen(data: 'Hi from routes'),
       }, //routes
       initialRoute: '/',
     );
